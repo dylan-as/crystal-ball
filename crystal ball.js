@@ -17,7 +17,7 @@ const omens = [
     "You may rely on it.",
     "As I see it, yes.",
     "Most likely.",
-    "Outlook good.",
+    "Outlook good. (Gmail better).",
     "Sike!",
     "Signs point to yes.",
     "Reply hazy, try again later.",
@@ -30,4 +30,12 @@ const omens = [
     "You wish!",
     "Outlook not so good :(",
     "Inconceivable!"
-]
+];
+
+//returns a random variable. 
+function diviner () {
+    const randomIndex = soothsayer(0,omens.length-1);
+    return omens[randomIndex];
+}
+
+console.log(diviner());
