@@ -37,15 +37,13 @@ eerie gray - 1E1E1E
 /* main three body images */
 
 .imageflex-container {
-    position: relative;
+    position: fixed;
     display: flex;
     margin: 10px;
 }
 
 .lefteye-container {
     width: calc(100vw/3)
-
-
 }
 
 .crystalball-container {
@@ -58,7 +56,6 @@ eerie gray - 1E1E1E
 
 #pixel-ball {
     width: 30vw;
- 
 }
 
 
