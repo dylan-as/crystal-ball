@@ -73,6 +73,7 @@ eerie gray - 1E1E1E
     font-size: 4rem;
     letter-spacing: .5rem;
     text-align: center;
+    border: none;
 }
 
 /*defaults content to hidden*/
