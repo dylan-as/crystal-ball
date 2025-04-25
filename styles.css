@@ -70,7 +70,7 @@ eerie gray - 1E1E1E
     background-color: #1E1E1E;
     font-family: "Jersey 10", sans-serif;
     color: #FFFFFF;
-    font-size: 2rem;
+    font-size: 4rem;
     letter-spacing: .5rem;
     text-align: center;
 }
@@ -80,9 +80,12 @@ eerie gray - 1E1E1E
 .dropdown-content {
     display: none;
     position: absolute;
+    font-family: "Jersey 10", sans-serif;
+    font-size: 2rem;
     background-color: #1E1E1E;
     min-width: 160px;
     box-shadow: none;
+    text-decoration: none;
     z-index: 1;
 }
 
@@ -92,9 +95,14 @@ eerie gray - 1E1E1E
     color: #FFFFFF;
     display: block;
     padding: 10px 16px; 
+    text-decoration: none;
 }
 
-.dropdown-content a:hover {color:aquamarine}
+.dropdown-content a:hover {
+    
+    color:aquamarine;
+    text-decoration: none;
+}
 
 /* triggers drop on hover */
 
