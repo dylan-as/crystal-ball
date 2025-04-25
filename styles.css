@@ -108,3 +108,15 @@ eerie gray - 1E1E1E
 /* triggers drop on hover */
 
 .dropdown:hover .dropdown-content {display:block}
+
+/* description & plain text styling */
+
+.description {
+
+    font-family: "Jersey 10", sans-serif;
+    font-size: 1.5rem;
+    color: #FFFFFF;
+    letter-spacing: .2rem;
+    font-weight: 200;
+
+}
