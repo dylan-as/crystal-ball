@@ -24,24 +24,42 @@ eerie gray - 1E1E1E
     text-align: center;
     letter-spacing: .5rem;
     line-height: 150%;
+    margin-bottom: 10px;
 }
 
 .head-container {
     position: fixed;
     width: 100vw;
     height: 20vh;
+    padding: 20px;
 }
+
+/* main three body images */
 
 .imageflex-container {
     position: relative;
+    display: flex;
+    margin: 10px;
 }
 
-div.crystal-ball {
-    width: 60vw;
-    height: 60vw;
-    align-items: center;
+.lefteye-container {
+    width: calc(100vw/3)
+
+
 }
 
+.crystalball-container {
+    width: calc(100vw/3)
+}
+
+.righteye-container {
+    width: calc(100vw/3)
+}
+
+#pixel-ball {
+    width: 30vw;
+ 
+}
 
 
 
