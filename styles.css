@@ -58,7 +58,44 @@ eerie gray - 1E1E1E
     width: 30vw;
 }
 
+/* dropdown button and menu styling */
 
+/*styles and positions menu itself*/
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
 
+.dropbtn {
+    background-color: #1E1E1E;
+    font-family: "Jersey 10", sans-serif;
+    color: #FFFFFF;
+    font-size: 2rem;
+    letter-spacing: .5rem;
+    text-align: center;
+}
 
-  
+/*defaults content to hidden*/
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #1E1E1E;
+    min-width: 160px;
+    box-shadow: none;
+    z-index: 1;
+}
+
+/* styles links within dropdown */
+
+.dropdown-content a {
+    color: #FFFFFF;
+    display: block;
+    padding: 10px 16px; 
+}
+
+.dropdown-content a:hover {color:aquamarine}
+
+/* triggers drop on hover */
+
+.dropdown:hover .dropdown-content {display:block}
