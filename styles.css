@@ -37,9 +37,9 @@ eerie gray - 1E1E1E
 /* main three body images */
 
 .imageflex-container {
-    position: fixed;
+    position: absolute;
     display: flex;
-    margin: 10px;
+    padding-top: 5vh;
 }
 
 .lefteye-container {
