@@ -43,7 +43,10 @@ eerie gray - 1E1E1E
 }
 
 .lefteye-container {
-    width: calc(100vw/3)
+    width: calc(100vw/3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .crystalball-container {
@@ -51,12 +54,17 @@ eerie gray - 1E1E1E
 }
 
 .righteye-container {
-    width: calc(100vw/3)
+    width: calc(100vw/3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #pixel-ball {
     width: 30vw;
+    margin: auto;
 }
+
 
 /* dropdown button and menu styling */
 
