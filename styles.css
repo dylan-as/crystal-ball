@@ -34,6 +34,10 @@ eerie gray - 1E1E1E
     padding: 20px;
 }
 
+.input-container {
+    position: relative;
+}
+
 /* main three body images */
 
 .imageflex-container {
@@ -50,7 +54,10 @@ eerie gray - 1E1E1E
 }
 
 .crystalball-container {
-    width: calc(100vw/3)
+    width: calc(100vw/3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .righteye-container {
@@ -61,8 +68,16 @@ eerie gray - 1E1E1E
 }
 
 #pixel-ball {
-    width: 30vw;
+    width: 50vw;
     margin: auto;
+}
+
+#left-eye {
+    width: 70%;
+}
+
+#right-eye {
+    width: 70%;
 }
 
 
@@ -82,6 +97,7 @@ eerie gray - 1E1E1E
     letter-spacing: .5rem;
     text-align: center;
     border: none;
+
 }
 
 /*defaults content to hidden*/
