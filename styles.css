@@ -31,7 +31,6 @@ eerie gray - 1E1E1E
     position: fixed;
     width: 100vw;
     height: 20vh;
-    padding: 20px;
 }
 
 
@@ -39,6 +38,7 @@ eerie gray - 1E1E1E
 
 .imageflex-container {
     display: flex;
+    height: 80vh;
 }
 
 .lefteye-container {
@@ -68,11 +68,11 @@ eerie gray - 1E1E1E
 }
 
 #left-eye {
-    width: 70%;
+    width: 60%;
 }
 
 #right-eye {
-    width: 70%;
+    width: 60%;
 }
 
 
