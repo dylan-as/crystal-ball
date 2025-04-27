@@ -34,16 +34,11 @@ eerie gray - 1E1E1E
     padding: 20px;
 }
 
-.input-container {
-    position: relative;
-}
 
 /* main three body images */
 
 .imageflex-container {
-    position: absolute;
     display: flex;
-    padding-top: 10vh;
 }
 
 .lefteye-container {
@@ -85,8 +80,9 @@ eerie gray - 1E1E1E
 
 /*styles and positions menu itself*/
 .dropdown {
-    position: relative;
+    position: fixed;
     display: inline-block;
+    z-index: 1;
 }
 
 .dropbtn {
@@ -133,7 +129,7 @@ eerie gray - 1E1E1E
 
 .dropdown:hover .dropdown-content {display:block}
 
-/* description & plain text styling */
+
 
 .description {
 
@@ -143,4 +139,37 @@ eerie gray - 1E1E1E
     letter-spacing: .2rem;
     font-weight: 200;
 
+}
+
+/* form & input styling */
+
+.input-container {
+    position: relative; 
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 5vh;
+}
+
+#question {
+    font-family: "Jersey 10", sans-serif;
+    font-size: 5rem;
+    color: #1E1E1E;
+}
+
+/* form & input text styling */
+
+input[type="text"] {
+    background-color: #ABABAB;
+    border-radius: 10%;
+    text-align: center;
+}
+
+input[type="text"]:focus {
+    background-color:#D9D9D9;
+    color: #101010;
+}
+
+input[type="text"]:focus::placeholder {
+    color: transparent;
 }
