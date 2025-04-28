@@ -38,18 +38,13 @@ function diviner () {
     return omens[randomIndex];
 }
 
+// form validation 
 
+function validateForm () {
+    let x = document.forms["question-bar"].value;
 
-// triggers console log on enter key hit 
-
-// var questionInput = document.getElementById('question');
-
-// document.querySelector("form.question-bar").addEventListener("keydown", function (e) {
-//     if (e.code == "Enter")
-
-//     // //prevent normal form submission
-//     // e.preventDefault();
-
-//     console.log(diviner());
-
-// })
+    if (x == "") {
+        alert("Please ask a question!");
+        return false;
+    }
+}
