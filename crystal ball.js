@@ -44,12 +44,12 @@ function diviner () {
 
 // var questionInput = document.getElementById('question');
 
-document.querySelector("form.question-bar").addEventListener("keydown", function (e) {
-    if (e.code == "Enter")
+// document.querySelector("form.question-bar").addEventListener("keydown", function (e) {
+//     if (e.code == "Enter")
 
-    // //prevent normal form submission
-    // e.preventDefault();
+//     // //prevent normal form submission
+//     // e.preventDefault();
 
-    console.log(diviner());
+//     console.log(diviner());
 
-})
+// })
