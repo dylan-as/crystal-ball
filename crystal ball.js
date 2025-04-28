@@ -40,15 +40,13 @@ function diviner () {
 
 
 
-// index.html functionality - 
-// loads all html before running function
 // triggers console log on enter key hit 
 
 // var questionInput = document.getElementById('question');
 
 document.querySelector("form.question-bar").addEventListener("keydown", function (e) {
     if (e.code == "Enter")
-        
+
     // //prevent normal form submission
     // e.preventDefault();
 
