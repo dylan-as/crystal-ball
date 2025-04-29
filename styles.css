@@ -215,4 +215,23 @@ input[type="text"]:focus::placeholder {
     font-weight: 200;
     justify-content: center;
     text-align: center;
+    padding: 5vw;
+}
+
+.backbtn {
+    position: fixed;
+    display: inline-block;
+    z-index: 1;
+    background-color: #1E1E1E;
+    font-family: "Jersey 10", sans-serif;
+    color: #FFFFFF;
+    font-size: 4rem;
+    letter-spacing: .5rem;
+    text-align: center;
+    border: none;
+}
+
+.backbtn:hover {
+    color:aquamarine;
+    text-decoration: none;
 }
