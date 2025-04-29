@@ -40,11 +40,6 @@ function diviner () {
 
 // form validation 
 
-function validateForm () {
-    let x = document.forms["question-bar"].value;
-
-    if (x == "") {
-        alert("Please ask a question!");
-        return false;
-    }
-}
+// write a function that retrieves element by id (#question) value onclick of diviner button and: 
+// if blank/null - generates 'please ask a question! 
+// if text - generates random diviner () answer 
