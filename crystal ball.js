@@ -43,3 +43,17 @@ function diviner () {
 // write a function that retrieves element by id (#question) value onclick of diviner button and: 
 // if blank/null - generates 'please ask a question! 
 // if text - generates random diviner () answer 
+
+function tellFortune () {
+    let question = document.getElementById("question");
+
+    if(question.value == "" || question.value == " " || question.value == "Ask me anything..." || question.value == "Please ask a question!")
+
+       {question.style.color = "white"
+        question.value = "Please ask a question!"}
+
+    else (console.log(diviner()))
+
+
+
+}
