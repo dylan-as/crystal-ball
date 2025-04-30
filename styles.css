@@ -67,6 +67,10 @@ eerie gray - 1E1E1E
     margin: auto;
 }
 
+#pixel-ball:hover {
+    animation: shake 4.0s;
+}
+
 #left-eye {
     width: 60%;
 }
@@ -198,7 +202,7 @@ input[type="text"]:focus::placeholder {
     display: block;
     margin: auto;
     text-align: center;
-    padding-top: 60px;
+    padding-top: 100px;
 }
 
 /* about page styling */
@@ -218,6 +222,26 @@ input[type="text"]:focus::placeholder {
     letter-spacing: .5rem;
     line-height: 150%;
     margin-bottom: 10px;
+}
+
+#about-heading:hover {
+    animation: shake 2.0s;
+}
+
+@keyframes shake {
+    0%  {transform: translate(1px, 1px) rotate(1deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+    
+
 }
 
 .text-container {
@@ -248,4 +272,5 @@ input[type="text"]:focus::placeholder {
 .backbtn:hover {
     color:aquamarine;
     text-decoration: none;
+    animation: shake 2.0s;
 }
