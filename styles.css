@@ -72,26 +72,26 @@ eerie gray - 1E1E1E
 }
 
 #pixel-ball:hover {
-    animation: shake 4.0s;
+    animation: shake 1.0s;
 }
 
 #left-eye {
     width: 60%;
 }
 
-#left-eye:hover {
+/* #left-eye:hover {
     width: 60%;
     animation: rotate 4.0s;
-}
+} */
 
 #right-eye {
     width: 60%;
 }
 
-#right-eye:hover {
+/* #right-eye:hover {
     width: 60%;
     animation: rotate 4.0s;
-}
+} */
 
 
 /* dropdown button and menu styling */
