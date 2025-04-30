@@ -27,6 +27,10 @@ eerie gray - 1E1E1E
     margin-bottom: 10px;
 }
 
+#heading:hover {
+    animation: shake 4.0s;
+}
+
 .head-container {
     position: fixed;
     width: 100vw;
