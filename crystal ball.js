@@ -52,8 +52,11 @@ function tellFortune () {
        {question.style.color = "white"
         question.value = "Please ask a question!"}
 
-    else (console.log(diviner()))
-
+    else {
+        question.style.color = "white"
+        let fortune = document.getElementById("fortune")
+        fortune.innerHTML = diviner();
+    }
 
 
 }

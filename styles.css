@@ -38,7 +38,7 @@ eerie gray - 1E1E1E
 
 .imageflex-container {
     display: flex;
-    height: 80vh;
+    height: 60vh;
 }
 
 .lefteye-container {
@@ -186,6 +186,19 @@ input[type="text"]:focus::placeholder {
 
 .diviner:hover {
     color: aquamarine;
+}
+
+/* answer box styling */
+
+#fortune {
+    font-family: "Jersey 10", sans-serif;
+    color: #D9D9D9;
+    font-size: 2.5rem;
+    position: relative;
+    display: block;
+    margin: auto;
+    text-align: center;
+    padding-top: 60px;
 }
 
 /* about page styling */
