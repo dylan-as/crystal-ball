@@ -79,8 +79,18 @@ eerie gray - 1E1E1E
     width: 60%;
 }
 
+#left-eye:hover {
+    width: 60%;
+    animation: rotate 4.0s;
+}
+
 #right-eye {
     width: 60%;
+}
+
+#right-eye:hover {
+    width: 60%;
+    animation: rotate 4.0s;
 }
 
 
@@ -102,6 +112,10 @@ eerie gray - 1E1E1E
     text-align: center;
     border: none;
 
+}
+
+.dropbtn:hover {
+    animation: shake 4.0s;
 }
 
 /*defaults content to hidden*/
@@ -232,22 +246,6 @@ input[type="text"]:focus::placeholder {
     animation: shake 2.0s;
 }
 
-@keyframes shake {
-    0%  {transform: translate(1px, 1px) rotate(1deg); }
-    10% { transform: translate(-1px, -2px) rotate(-1deg); }
-    20% { transform: translate(-3px, 0px) rotate(1deg); }
-    30% { transform: translate(3px, 2px) rotate(0deg); }
-    40% { transform: translate(1px, -1px) rotate(1deg); }
-    50% { transform: translate(-1px, 2px) rotate(-1deg); }
-    60% { transform: translate(-3px, 1px) rotate(0deg); }
-    70% { transform: translate(3px, 1px) rotate(-1deg); }
-    80% { transform: translate(-1px, -1px) rotate(1deg); }
-    90% { transform: translate(1px, 2px) rotate(0deg); }
-    100% { transform: translate(1px, -2px) rotate(-1deg); }
-    
-
-}
-
 .text-container {
     font-family: "Jersey 10", sans-serif;
     font-weight: 200;
@@ -277,4 +275,34 @@ input[type="text"]:focus::placeholder {
     color:aquamarine;
     text-decoration: none;
     animation: shake 2.0s;
+}
+
+/* keyframes */ 
+
+@keyframes shake {
+    0%  {transform: translate(1px, 1px) rotate(1deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+@keyframes rotate {
+    0%  {transform: rotate(36deg); }
+    10% { transform: rotate(72deg); }
+    20% { transform: rotate(108deg); }
+    30% { transform: rotate(144deg); }
+    40% { transform: rotate(180deg); }
+    50% { transform: rotate(216deg); }
+    60% { transform: rotate(252deg); }
+    70% { transform: rotate(288deg); }
+    80% { transform: rotate(324deg); }
+    90% { transform: rotate(360deg); }
+    100%{ transform: rotate(0deg); }
 }
