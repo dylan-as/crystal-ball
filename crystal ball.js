@@ -47,16 +47,15 @@ function diviner () {
 function tellFortune () {
     let question = document.getElementById("question");
 
-    if(question.value == "" || question.value == " " || question.value == "Ask me anything..." || question.value == "Please ask a question!")
+    if(question.value == "" || question.value == " " || question.value == "Ask me anything..." || question.value == "Please ask a question!" || question.value == "I'm not a mind reader!")
 
        {question.style.color = "white"
-        question.value = "Please ask a question!"}
+        question.value = "Please ask a question!" || "I'm not a mind reader!"}
 
     else {
         question.style.color = "white"
         let fortune = document.getElementById("fortune")
         fortune.innerHTML = diviner();
     }
-
 
 }
