@@ -8,14 +8,13 @@ eerie gray - 1E1E1E
 @media only screen and (max-width: 600px) {
     * {
         overflow: visible;
-
     }
 
 }
 
 .jersey-10-regular {
     font-family: "Jersey 10", sans-serif;
-    font-weight: 400;
+    font-weight: 300;
     font-style: normal;
   }
 
@@ -31,7 +30,8 @@ eerie gray - 1E1E1E
     align-items: center;
     text-align: center;
     letter-spacing: .5rem;
-    line-height: 150%;
+    line-height: 120%;
+    margin-top: 10px;
     margin-bottom: 10px;
 }
 
@@ -45,7 +45,7 @@ eerie gray - 1E1E1E
 /* main three body images */
 
 .imageflex-container {
-    display: flex;
+    display: relative;
     height: 60vh;
 }
 
@@ -88,7 +88,7 @@ eerie gray - 1E1E1E
     background-color: #1E1E1E;
     font-family: "Jersey 10", sans-serif;
     color: #FFFFFF;
-    font-size: 4rem;
+    font-size: 2rem;
     letter-spacing: .5rem;
     text-align: center;
     border: none;
@@ -101,7 +101,7 @@ eerie gray - 1E1E1E
     display: none;
     position: absolute;
     font-family: "Jersey 10", sans-serif;
-    font-size: 2rem;
+    font-size: 1rem;
     background-color: #1E1E1E;
     min-width: 160px;
     box-shadow: none;
