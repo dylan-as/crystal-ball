@@ -1,0 +1,246 @@
+/** COLOR CODES
+white - ffffff
+black - 000000
+offwhite - D9D9D9
+eerie gray - 1E1E1E
+**/
+
+@media only screen and (max-width: 600px) {
+    * {
+        overflow: visible;
+
+    }
+
+}
+
+.jersey-10-regular {
+    font-family: "Jersey 10", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  body {
+    background-color: #1E1E1E;
+}
+
+#heading {
+    color: #D9D9D9;
+    font-family: "Jersey 10";
+    font-size: 7rem;
+    font-weight: 600;
+    align-items: center;
+    text-align: center;
+    letter-spacing: .5rem;
+    line-height: 150%;
+    margin-bottom: 10px;
+}
+
+.head-container {
+    position: fixed;
+    width: 100vw;
+    height: 20vh;
+}
+
+
+/* main three body images */
+
+.imageflex-container {
+    display: flex;
+    height: 60vh;
+}
+
+.lefteye-container {
+    width: calc(100vw/3);
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.crystalball-container {
+    width: calc(100vw/3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.righteye-container {
+    width: calc(100vw/3);
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+#pixel-ball {
+    width: 50vw;
+    margin: auto;
+}
+
+/* dropdown button and menu styling */
+
+/*styles and positions menu itself*/
+.dropdown {
+    position: fixed;
+    display: inline-block;
+    z-index: 1;
+}
+
+.dropbtn {
+    background-color: #1E1E1E;
+    font-family: "Jersey 10", sans-serif;
+    color: #FFFFFF;
+    font-size: 4rem;
+    letter-spacing: .5rem;
+    text-align: center;
+    border: none;
+}
+
+
+/*defaults content to hidden*/
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    font-family: "Jersey 10", sans-serif;
+    font-size: 2rem;
+    background-color: #1E1E1E;
+    min-width: 160px;
+    box-shadow: none;
+    text-decoration: none;
+    z-index: 1;
+}
+
+/* styles links within dropdown */
+
+.dropdown-content a {
+    color: #FFFFFF;
+    display: block;
+    padding: 10px 16px; 
+    text-decoration: none;
+}
+
+.dropdown-content a:hover {
+    
+    color:aquamarine;
+    text-decoration: none;
+}
+
+/* triggers drop on hover */
+
+.dropdown:hover .dropdown-content {display:block}
+
+
+/* form & input styling */
+
+.interactive-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-container {
+    position: relative; 
+    margin-bottom: 5vh;
+    border: none;
+}
+
+#question {
+    font-family: "Jersey 10", sans-serif;
+    font-size: 5rem;
+    background-color: #1E1E1E;
+    color: #D9D9D9;
+    border: none;
+}
+
+/* form & input text styling */
+
+input[type="text"] {
+    background-color: #1E1E1E;
+    text-align: center;
+    color:#D9D9D9;
+}
+
+input[type="text"]:focus::placeholder {
+    color: transparent;
+}
+
+.button-container {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 5px;
+}
+
+.diviner {
+    font-family: "Jersey 10", sans-serif;
+    color: #D9D9D9;
+    background: #1E1E1E;
+    border: none;
+    font-size: 2rem;
+    border-radius: 5%;
+}
+
+.diviner:hover {
+    color: aquamarine;
+}
+
+/* answer box styling */
+
+#fortune {
+    font-family: "Jersey 10", sans-serif;
+    color: #D9D9D9;
+    font-size: 2.5rem;
+    position: relative;
+    display: block;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+/* about page styling */
+
+.aboutcontent-container {
+    position: relative;
+}
+
+#about-heading {
+
+    color: #D9D9D9;
+    font-family: "Jersey 10";
+    font-size: 7rem;
+    font-weight: 600;
+    align-items: center;
+    text-align: center;
+    letter-spacing: .5rem;
+    line-height: 150%;
+    margin-bottom: 10px;
+}
+
+.text-container {
+    font-family: "Jersey 10", sans-serif;
+    font-weight: 200;
+    font-size: 3rem;
+    color: #FFFFFF;
+    letter-spacing: .2rem;
+    font-weight: 200;
+    justify-content: center;
+    text-align: center;
+    padding: 5vw;
+}
+
+.backbtn {
+    position: fixed;
+    display: inline-block;
+    z-index: 1;
+    background-color: #1E1E1E;
+    font-family: "Jersey 10", sans-serif;
+    color: #FFFFFF;
+    font-size: 4rem;
+    letter-spacing: .5rem;
+    text-align: center;
+    border: none;
+}
+
+.backbtn:hover {
+    color:aquamarine;
+    text-decoration: none;
+}
