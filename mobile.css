@@ -35,6 +35,19 @@ eerie gray - 1E1E1E
     margin-bottom: 10px;
 }
 
+#about-heading {
+    color: #D9D9D9;
+    font-family: "Jersey 10";
+    font-size: 7rem;
+    font-weight: 600;
+    align-items: center;
+    text-align: center;
+    letter-spacing: .5rem;
+    line-height: 120%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 .head-container {
     position: fixed;
     width: 100vw;
@@ -203,19 +216,6 @@ input[type="text"]:focus::placeholder {
     position: relative;
 }
 
-#about-heading {
-
-    color: #D9D9D9;
-    font-family: "Jersey 10";
-    font-size: 7rem;
-    font-weight: 600;
-    align-items: center;
-    text-align: center;
-    letter-spacing: .5rem;
-    line-height: 150%;
-    margin-bottom: 10px;
-}
-
 .text-container {
     font-family: "Jersey 10", sans-serif;
     font-weight: 200;
@@ -229,13 +229,10 @@ input[type="text"]:focus::placeholder {
 }
 
 .backbtn {
-    position: fixed;
-    display: inline-block;
-    z-index: 1;
     background-color: #1E1E1E;
     font-family: "Jersey 10", sans-serif;
     color: #FFFFFF;
-    font-size: 4rem;
+    font-size: 2rem;
     letter-spacing: .5rem;
     text-align: center;
     border: none;
