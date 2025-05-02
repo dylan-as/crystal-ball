@@ -73,6 +73,7 @@ eerie gray - 1E1E1E
 #pixel-ball {
     width: 50vw;
     margin: auto;
+    position: relative;
 }
 
 /* dropdown button and menu styling */
