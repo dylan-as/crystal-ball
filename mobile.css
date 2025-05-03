@@ -7,7 +7,7 @@ eerie gray - 1E1E1E
 
 @media only screen and (max-width: 600px) {
     * {
-        font-size: 10px;
+        font-size: 15px;
         overflow: visible;
     }
 
@@ -65,7 +65,7 @@ eerie gray - 1E1E1E
 
 .lefteye-container {
     width: calc(100vw/3);
-    display: none;
+    /* display: none; */
     justify-content: center;
     align-items: center;
 }
@@ -79,16 +79,31 @@ eerie gray - 1E1E1E
 
 .righteye-container {
     width: calc(100vw/3);
-    display: none;
+    /* display: none; */
     justify-content: center;
     align-items: center;
 }
 
 #pixel-ball {
-    width: 50vw;
+    width: 90vw;
     margin: auto;
     position: relative;
 
+}
+
+#left-eye {
+    width: 60%;
+    display: none;
+}
+
+/* #left-eye:hover {
+    width: 60%;
+    animation: rotate 4.0s;
+} */
+
+#right-eye {
+    width: 60%;
+    display: none;
 }
 
 /* dropdown button and menu styling */
